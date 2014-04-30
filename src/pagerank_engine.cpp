@@ -63,7 +63,8 @@ void PagerankEngine::Start() {
     std::vector<float> pr_new(num_vertices_, (1 - d_));
     // Page rank
     for (int i = 0; i < dangling_vertices_.size(); ++i) {
-      pr_new[i] += d_ * pr_[i];
+      int d_vertex = dangling_vertices_[i;]
+      pr_new[d_vertex] += d_ * pr_[d_vertex];
     }
 
     for (auto& e : edges_) {
