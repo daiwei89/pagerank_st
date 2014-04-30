@@ -44,7 +44,7 @@ void PagerankEngine::ReadData(const std::string& file) {
   }
   LOG(INFO) << "Done reading " << num_edges << " edges in "
     << timer.elapsed() << " seconds. Found " << num_vertices_
-    << "vertices. " << dangling_vertices_.size()
+    << " vertices. " << dangling_vertices_.size()
     << " of which are dangling vertices";
 }
 
