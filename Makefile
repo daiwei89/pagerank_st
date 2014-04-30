@@ -47,7 +47,7 @@ $(PR): $(PR_SRC)
 	$(PR_LDFLAGS) -o $@
 
 $(PR_OBJ): %.o: %.cpp $(PR_HDR)
-	$(PR_CXX) $(MSFT_CXXFLAGS) -I$(SRC_DIR) $(INCFLAGS) -c $< -o $@
+	$(PR_CXX) $(PR_CXXFLAGS) -I$(SRC_DIR) $(INCFLAGS) -c $< -o $@
 
 
 all: path \
