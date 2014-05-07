@@ -1,6 +1,7 @@
 
 #data_file=datasets/barabasi-90000.txt
-data_file=datasets/twitter_rv_small_1e6.net
+#data_file=datasets/twitter_rv_small_1e7.net
+data_file=datasets/twitter_rv.net
 num_iterations=50
 
 
